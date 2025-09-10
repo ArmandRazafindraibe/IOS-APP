@@ -3,9 +3,27 @@ Ajoutez un TableViewController à l’aide de la barre de recherche de la biblio
 
 TableViewCell
 Le TableViewCell est le composant qui va être répété pour chaque élément de la liste. 
-Il est composé d’une vue (ContentView) que vous pouvez personnaliser. Le ContentView est le composant qui va contenir les éléments de la cellule. 
+Il est composé d’une vue (ContentView) que vous pouvez personnaliser. 
+Le ContentView est le composant qui va contenir les éléments de la cellule. 
 Vous pouvez y ajouter des composants comme des UILabel, UIImageView, UIButton, etc…
 
 Création de fichier swift
 Fichier héritant 
-Pour cela, vous pouvez utiliser le raccourci CMD+N puis sélectionner Cocoa Touch Class et Next. Vous pouvez ensuite nommer votre fichier DocumentTableViewControlle
+Pour cela, vous pouvez utiliser le raccourci CMD+N puis sélectionner Cocoa Touch Class et Next. 
+Vous pouvez ensuite nommer votre fichier DocumentTableViewControlle
+
+A
+
+Afficher les données dans la liste
+Il est important de comprendre la notion de Delegate et de DataSource dans le Framework UIKit. 
+Ces deux notions sont une application directe de ce que nous avons vu dans le chapitre sur la Délégation de Swift.
+
+#Delegate
+Le Delegate est une interface qui va gérer les actions de l’utilisateur sur un composant. 
+Par exemple, lorsque nous cliquons sur un élément de la liste, c’est le Delegate qui va vous prévenir d’une action de l’utilisateur.
+
+#DataSource
+Le DataSource est une interface qui va gérer les données d’un composant. 
+Par exemple, lorsque nous voulons afficher une liste de données, c’est le DataSource qui va fournir les données à afficher.
+
+
