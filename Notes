@@ -1,0 +1,7 @@
+TableView 
+Ajoutez un TableViewController à l’aide de la barre de recherche de la bibliothèque de composants (CMD+Shift+L).
+
+TableViewCell
+Le TableViewCell est le composant qui va être répété pour chaque élément de la liste. 
+Il est composé d’une vue (ContentView) que vous pouvez personnaliser. Le ContentView est le composant qui va contenir les éléments de la cellule. 
+Vous pouvez y ajouter des composants comme des UILabel, UIImageView, UIButton, etc…
