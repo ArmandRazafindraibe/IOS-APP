@@ -5,3 +5,7 @@ TableViewCell
 Le TableViewCell est le composant qui va être répété pour chaque élément de la liste. 
 Il est composé d’une vue (ContentView) que vous pouvez personnaliser. Le ContentView est le composant qui va contenir les éléments de la cellule. 
 Vous pouvez y ajouter des composants comme des UILabel, UIImageView, UIButton, etc…
+
+Création de fichier swift
+Fichier héritant 
+Pour cela, vous pouvez utiliser le raccourci CMD+N puis sélectionner Cocoa Touch Class et Next. Vous pouvez ensuite nommer votre fichier DocumentTableViewControlle
