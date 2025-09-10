@@ -28,8 +28,12 @@ A quoi sert le raccourci Cmd + Shift + O ?
   Pour ouvrir une zone de recherche pour ouvrir un fichier.
   
 Trouver le raccourci pour indenter le code automatiquement
-  Cmd + I
+  Ctrl + I
 
 Et celui pour commenter la selection.
   Cmd + /
+
+Delegation 
+Exercice 1
+Une propriété statique en programmation est une donnée qui appartient à la classe elle-même, et non à une instance spécifique de cette classe.
   
